@@ -12,14 +12,13 @@ int main(int argc, char **argv)
     double spellcheck_time;
     bool result;
 
-    // check argc
     if (argc > 2)
     {
         printf("Too many arguments provided\n");
         return 1;
     }
-    load_casefold_table(); // load_dict a casefold table
-    // call load_dict on dictionary file
+    load_casefold_table();
+    
     begin = clock();
     if (argc == 2)
     {
