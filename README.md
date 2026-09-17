@@ -36,7 +36,7 @@
 
 ## Running the Program
 
-From the repository’s root directory:
+From the repository’s root directory, in the **Terminal** (Linux) or the **Developer Terminal** (windows Visual Studio), run:
 
 * **Linux:**
 
