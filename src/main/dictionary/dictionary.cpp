@@ -20,8 +20,8 @@ void load_dict(const char *filename)
     if (!file)
     {
         perror("fopen");
-        exit(EXIT_FAILURE);
         system("pause");
+        exit(EXIT_FAILURE);
     }
     while ((word = get_word(file)) != NULL)
     {
